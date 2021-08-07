@@ -8,7 +8,9 @@ class LoginPage extends StatelessWidget {
         child: Column(
           children: [
             Image.asset("assets/Login_page.png",
-            fit: BoxFit.cover,
+            fit: BoxFit.fitHeight,
+            height: 250,
+            
             ),
             Text("Welcome",
             style: TextStyle(fontSize: 22,
